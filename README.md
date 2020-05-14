@@ -5,7 +5,7 @@ Repositorio para el meetup virtual de Cosmos.
 >- Conexión a internet.
 >- Ordenador con Windows y una maquina virtual instalada con Ubuntu, en el ejemplo se usará una versión minimal de [Ubuntu 18.04LTS](http://releases.ubuntu.com/18.04.4/).
 
-> _Podéis encontrar una imagen de Ubuntu con todo lo necesario para el meetup en la carpeta [virtualbox](virtualBox/MeetupCosmos.ova) o podéis descargarlo desde la [web de la Colmena](https://www.colmenalabs.org/vm/), el archivo pesa `3,3GB`._ 
+> _Podéis encontrar el enlace para la descarga de una imagen de Ubuntu con todo lo necesario para el meetup en la carpeta [virtualbox](virtualBox/) o podéis descargarlo desde la [web de la Colmena](https://www.colmenalabs.org/vm/), el archivo pesa `3,3GB`._ 
 
 >_Las credenciales para la maquina virtual son las siguientes:_
 >```
