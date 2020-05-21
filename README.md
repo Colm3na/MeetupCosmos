@@ -125,3 +125,23 @@ gaiacli tx staking redelegate ANTIGUOVALIDADOR NUEVOVALIDADOR "cantidad"umuon --
 ```bash
 gaiacli tx gov vote "IDPROPOSICION" "Yes-No-NoWithVeto-Abstain" --from NUESTRAWALLET  -y
 ```
+
+# Enlaces de interés:
+
+[Github Gaia](https://github.com/cosmos/gaia)
+
+[Github Cosmos](https://github.com/cosmos)
+
+[Portal para desarrolladores](https://cosmos.network/developers)
+
+[Documentación Cosmos SDK](https://docs.cosmos.network/)
+
+[Documentación Cosmos Hub](https://hub.cosmos.network/master/hub-overview/overview.html)
+
+[Telegram Cosmos _(inglés)_](https://t.me/cosmosproject)
+
+[Telegram Cosmos _(español)_](https://t.me/Cosmos_Network_ES)
+
+[Discord _(general)_](https://discord.com/channels/669268347736686612/669275164999155742)
+
+[Discord _(español)_](https://discord.com/channels/669268347736686612/669488959159533584)
