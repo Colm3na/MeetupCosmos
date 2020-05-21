@@ -98,6 +98,13 @@ gaiacli config chain-id gaia-13007
 >```
 
 **4. Realizando una transacción _(recordad cambiar `umuon` a `uatom` cuando hagamos transacciones en mainnet, en caso de que queramos usar la Ledger, solo debemos añadir el flag "`--ledger`")_**
+
+>El token de Cøsmos en mainnet es el `atom` y en testnet `muon`
+
+>1 `atom` = 1000000 `uatom`
+
+>1 `muon` = 1000000 `umuon`
+
 ```bash
 gaiacli tx send "NUESTRAWALLET" "WALLETDESTINO" "CANTIDAD"umuon --trust-node=true
 ```
