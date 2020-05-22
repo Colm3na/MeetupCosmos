@@ -82,6 +82,7 @@ gaiad init wimelDelega
 >Si hemos seguido estos pasos ya tenemos instalado en nuestro ordenador Gaia, y una wallet lista para ser usada. Es importante, muy importante **hacer más de una copia de las 24 palabras** para poder recuperar nuestra wallet si algo pasara en nuestro ordenador.
 
 **3. ¿Cómo interactuar con un nodo sin instalar un _full-node_?**
+
 Aquí la clave está en el archivo situado en `.gaiacli/config` llamado `config.toml`, dentro de ese archivo podemos modificar los valores de la red con la cual queremos interactuar, por ejemplo para la testnet sería:
 ```bash
 #configuramos el nodo externo para mandarle nuestras transacciones:
@@ -124,6 +125,8 @@ gaiacli tx staking redelegate ANTIGUOVALIDADOR NUEVOVALIDADOR "cantidad"umuon --
 
 **7. ¿Cómo votar en un proceso de gobernanza abierto?**
 
+>Recuerda que debes **delegar fondos antes de participar en los procesos de gobernanza**
+
 >Para ver los procesos de gobernanza que actualmente están en período de votación:
 >```bash
 >gaiacli query gov proposals --status voting_period
@@ -152,3 +155,5 @@ gaiacli tx gov vote "IDPROPOSICION" "Yes-No-NoWithVeto-Abstain" --from NUESTRAWA
 [Discord _(general)_](https://discord.com/channels/669268347736686612/669275164999155742)
 
 [Discord _(español)_](https://discord.com/channels/669268347736686612/669488959159533584)
+
+[Repo Gavinly, buenas prácticas en los procesos de gobernanza_(en inglés)_](https://github.com/gavinly/CosmosCommunitySpend)
