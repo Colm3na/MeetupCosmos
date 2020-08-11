@@ -79,6 +79,16 @@ gaiacli keys add wimelDelega
 gaiad init wimelDelega
 ```
 
+>Si tenemos el siguiente error:
+```
+# github.com/zondax/hid
+../go/pkg/mod/github.com/zondax/hid@v0.9.0/hid_enabled.go:22:11: fatal error: sys/poll.h: No such file or directory
+  #include <sys/poll.h>
+           ^~~~~~~~~~~~
+compilation terminated.
+```
+añadimos el flag `CGO_ENABLED=0` al compilar, el comando sería `make install CGO_ENABLED=0`
+
 >Si hemos seguido estos pasos ya tenemos instalado en nuestro ordenador Gaia, y una wallet lista para ser usada. Es importante, muy importante **hacer más de una copia de las 24 palabras** para poder recuperar nuestra wallet si algo pasara en nuestro ordenador.
 
 **3. ¿Cómo interactuar con un nodo sin instalar un _full-node_?**
