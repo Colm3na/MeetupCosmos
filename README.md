@@ -87,7 +87,8 @@ gaiad init wimelDelega
            ^~~~~~~~~~~~
 compilation terminated.
 ```
-añadimos el flag `CGO_ENABLED=0` al compilar, el comando sería `make install CGO_ENABLED=0`
+>añadimos el flag `CGO_ENABLED=0` al compilar, el comando sería `make install CGO_ENABLED=0`
+>o instalamos build essential con: `sudo apt install -y build-essential` _(ver más info [aquí](https://github.com/Kava-Labs/kava/issues/656))_
 
 >Si hemos seguido estos pasos ya tenemos instalado en nuestro ordenador Gaia, y una wallet lista para ser usada. Es importante, muy importante **hacer más de una copia de las 24 palabras** para poder recuperar nuestra wallet si algo pasara en nuestro ordenador.
 
